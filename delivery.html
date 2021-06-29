@@ -1,0 +1,337 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Cake & Pastry">
+  <meta name="keywords" content="Bakery">
+  <meta name="author" content="The Sugar Pot Bakery">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<html>
+<head><link rel="shortcut icon" href="image/logo.ico" />
+<script language='JavaScript'>var txt="The Sugar Pot Bakery _ ";var kecepatan=70;var segarkan=null;function bergerak() { document.title=txt;txt=txt.substring(1,txt.length)+txt.charAt(0);
+segarkan=setTimeout("bergerak()",kecepatan);}bergerak();</script>
+</head>
+<body>
+<style>
+body {
+  background-image: url(image/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;}
+</style>
+<center><div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="image/photoslider1.png" style="width:95%">
+</div>
+
+<div class="mySlides fade">
+  <img src="image/photoslider2.png" style="width:95%">
+</div>
+
+<div class="mySlides fade">
+  <img src="image/photoslider3.png" style="width:95%">
+</div>
+
+<div class="mySlides fade">
+  <img src="image/photoslider4.png" style="width:95%">
+</div>
+
+<div class="mySlides fade">
+  <img src="image/photoslider5.png" style="width:95%">
+</div>
+
+<div class="mySlides fade">
+  <img src="image/photoslider6.png" style="width:95%">
+</div>
+
+<div class="mySlides fade">
+  <img src="image/photoslider7.png" style="width:95%">
+</div>
+
+<div class="mySlides fade">
+  <img src="image/photoslider8.png" style="width:95%">
+</div>
+
+<div class="mySlides fade">
+  <img src="image/photoslider9.png" style="width:95%">
+</div>
+
+<div class="mySlides fade">
+  <img src="image/photoslider10.png" style="width:95%">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000); // Change image every 4 seconds
+}
+</script>
+
+<br>
+<br>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.btn {
+  background-color: #F1948A;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: ;
+  outline: none;
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #FADBD8;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #F1948A}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.btn:hover, .dropdown:hover .btn {
+  background-color: #CD6155;
+}
+</style>
+</head>
+<body>
+
+<center><table border="0" width="72%" align="center" 
+<align="middle" cellpadding="0" cellspacing"0">
+
+<tr>
+    <th><button class="btn"><a href="index.html" target="_blank" style="text-decoration:none" >Home</button></a>
+    <button class="btn"><a href="aboutus.html" target="_blank" style="text-decoration:none" >About Us</button></a>
+    <button class="btn"><a href="products.html" target="_blank" style="text-decoration:none" >All Products</button></a>
+ <div class="dropdown">
+  <button class="btn" style="border-left:1px solid #FADBD8">
+    <i class="fa fa-birthday-cake"></i>
+  </button>
+ <div class="dropdown-content">
+    <a href="cakes.html" target="_blank" >Sweetie Cakes</a>
+    <a href="cupcakes.html" target="_blank" >Cutie Cupcakes</a>
+    <a href="cookies.html" target="_blank" >Honey Cookies</a>
+    <a href="bread.html" target="_blank" >Flower Bread</a>
+ </div></th>
+
+    <td><button class="btn"><a href="delivery.html" target="_blank" style="text-decoration:none" >Delivery & Pick Up</button></a>
+<div class="dropdown">
+  <button class="btn" style="border-left:1px solid #FADBD8">
+    <i class="fa fa-car"></i>
+  </button>
+ <div class="dropdown-content">
+    <a href="delivery.html" target="_blank" >Delivery</a>
+    <a href="pickup.html" target="_blank" >Pick Up</a>
+</div></td>
+    <td><button class="btn"><a href="order.html" target="_blank" style="text-decoration:none" >Order Now</button></a>
+    <button class="btn"><a href="contactus.html" target="_blank" style="text-decoration:none" >Contact Us</button></a></td>
+</tr>
+</table>
+</div>
+</body>
+</html>
+<br>
+<br>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+#customers td, #customers th {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+#customers tr:nth-child(even){background-color: pink;}
+
+#customers tr:hover {background-color: #D98880;}
+
+#customers th {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  background-color: #CA7E8D;
+  color: black;
+}
+</style>
+</head>
+<body>
+
+<center><h1>Delivery Fee</h1>
+     <p>We offer delivery services in Ipoh, Perak only. (Within 25km from our location).
+<br>
+     <p>Free Delivery is available with different minimum amounts for each zone.</p>
+<br>
+
+<h2><b>Step 1:</b></h2>
+     <p>Check the estimated distance between your location and our shop on Google Maps.<p>
+<br>
+<h2><b>Step 2:</b></h2>
+     <p>Refer to the delivery list below to find out your zone.<p>
+<br>
+<br>
+
+<table id="customers">
+  <tr>
+    <th>DELIVERY DAY</th>
+    <th>DELIVERY TIME</th>
+    <th>DISTANCE FROM OUR LOCATION</th>
+    <th>DELIVERY FEE</th>
+    <th>FREE FELIVERY</th>
+  </tr>
+  <tr>
+    <td>Monday - Sunday</td>
+    <td>10:00 a.m - 9:00 p.m</td>
+    <td>0 - 5 km</td>
+    <td>RM 3</td>
+    <td>RM 50</td>
+  </tr>
+  <tr>
+    <td>Monday - Sunday</td>
+    <td>10:00 a.m - 9:00 p.m</td>
+    <td>5 - 10 km</td>
+    <td>RM 6</td>
+    <td>RM 70</td>
+  </tr>
+  <tr>
+    <td>Monday - Sunday</td>
+    <td>10:00 a.m - 9:00 p.m</td>
+    <td>10 - 15 km</td>
+    <td>RM 9</td>
+    <td>RM 90</td>
+  </tr>
+  <tr>
+    <td>Monday - Sunday</td>
+    <td>10:00 a.m - 9:00 p.m</td>
+    <td>15 - 20 km</td>
+    <td>RM 12</td>
+    <td>RM 110</td>
+  </tr>
+  <tr>
+    <td>Monday - Sunday</td>
+    <td>10:00 a.m - 9:00 p.m</td>
+    <td>20 - 25 km</td>
+    <td>RM 15</td>
+    <td>RM 130</td>
+  </tr>
+</table>
+
+</body>
+</html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="http://www.wasap.my/601172928993"
+   		 class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
+
+<!-- CSS -->
+<style>
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+ </style>
+<br>
+<div id="sfcynqfd7sdrbule5pznfnapkazpfwrc56u"></div><script type="text/javascript" src="https://counter6.stat.ovh/private/counter.js?c=ynqfd7sdrbule5pznfnapkazpfwrc56u&down=async" async></script><noscript><a href="https://www.freecounterstat.com" title="web counter"><img src="https://counter6.stat.ovh/private/freecounterstat.php?c=ynqfd7sdrbule5pznfnapkazpfwrc56u" border="0" title="web counter" alt="web counter"></a></noscript>
+<br>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<br>
+<style>
+    footer {
+        position: relative;
+        height: 110px;
+        width: 100%;
+        background-color: #333333;
+    }
+
+    p.copyright {
+        position: absolute;
+        width: 100%;
+        color: yellow;
+        line-height: 40px;
+        font-size: 0.7em;
+        text-align: center;
+        bottom:0;
+    }
+</style>
+<footer>
+<br>
+<a href="https://www.instagram.com/sugarpotbakery/"><img src="image/instagram2.png" width="3%"></a>
+    <p class="copyright">© 2021 The Sugar Pot Bakery . All Rights Reserved</p>
+</footer>
+</body>
+</html>
