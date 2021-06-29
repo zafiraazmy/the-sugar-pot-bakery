@@ -1,0 +1,326 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Cake & Pastry">
+  <meta name="keywords" content="Bakery">
+  <meta name="author" content="The Sugar Pot Bakery">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<html>
+<head><link rel="shortcut icon" href="image/logo.ico" />
+<script language='JavaScript'>var txt="The Sugar Pot Bakery _ ";var kecepatan=70;var segarkan=null;function bergerak() { document.title=txt;txt=txt.substring(1,txt.length)+txt.charAt(0);
+segarkan=setTimeout("bergerak()",kecepatan);}bergerak();</script>
+</head>
+<body>
+<style>
+body {
+  background-image: url(image/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;}
+</style>
+<center><div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="image/photoslider1.png" style="width:95%">
+</div>
+
+<div class="mySlides fade">
+  <img src="image/photoslider2.png" style="width:95%">
+</div>
+
+<div class="mySlides fade">
+  <img src="image/photoslider3.png" style="width:95%">
+</div>
+
+<div class="mySlides fade">
+  <img src="image/photoslider4.png" style="width:95%">
+</div>
+
+<div class="mySlides fade">
+  <img src="image/photoslider5.png" style="width:95%">
+</div>
+
+<div class="mySlides fade">
+  <img src="image/photoslider6.png" style="width:95%">
+</div>
+
+<div class="mySlides fade">
+  <img src="image/photoslider7.png" style="width:95%">
+</div>
+
+<div class="mySlides fade">
+  <img src="image/photoslider8.png" style="width:95%">
+</div>
+
+<div class="mySlides fade">
+  <img src="image/photoslider9.png" style="width:95%">
+</div>
+
+<div class="mySlides fade">
+  <img src="image/photoslider10.png" style="width:95%">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000); // Change image every 4 seconds
+}
+</script>
+
+<br>
+<br>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.btn {
+  background-color: #F1948A;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: ;
+  outline: none;
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #FADBD8;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #F1948A}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.btn:hover, .dropdown:hover .btn {
+  background-color: #CD6155;
+}
+</style>
+</head>
+<body>
+
+<center><table border="0" width="72%" align="center" 
+<align="middle" cellpadding="0" cellspacing"0">
+
+<tr>
+    <th><button class="btn"><a href="index.html" target="_blank" style="text-decoration:none" >Home</button></a>
+    <button class="btn"><a href="aboutus.html" target="_blank" style="text-decoration:none" >About Us</button></a>
+    <button class="btn"><a href="products.html" target="_blank" style="text-decoration:none" >All Products</button></a>
+ <div class="dropdown">
+  <button class="btn" style="border-left:1px solid #FADBD8">
+    <i class="fa fa-birthday-cake"></i>
+  </button>
+ <div class="dropdown-content">
+    <a href="cakes.html" target="_blank" >Sweetie Cakes</a>
+    <a href="cupcakes.html" target="_blank" >Cutie Cupcakes</a>
+    <a href="cookies.html" target="_blank" >Honey Cookies</a>
+    <a href="bread.html" target="_blank" >Flower Bread</a>
+ </div></th>
+
+    <td><button class="btn"><a href="delivery.html" target="_blank" style="text-decoration:none" >Delivery & Pick Up</button></a>
+<div class="dropdown">
+  <button class="btn" style="border-left:1px solid #FADBD8">
+    <i class="fa fa-car"></i>
+  </button>
+ <div class="dropdown-content">
+    <a href="delivery.html" target="_blank" >Delivery</a>
+    <a href="pickup.html" target="_blank" >Pick Up</a>
+</div></td>
+    <td><button class="btn"><a href="order.html" target="_blank" style="text-decoration:none" >Order Now</button></a>
+    <button class="btn"><a href="contactus.html" target="_blank" style="text-decoration:none" >Contact Us</button></a></td>
+</tr>
+</table>
+
+</body>
+</html>
+<br>
+<br>
+<hr class="dashed">
+<br>
+<table border="0" align="center">
+<tr>
+<th align="center">
+<br>
+<table align="center">
+<img src="image/clock2.png" width="12%">
+<br>
+<br>
+<tr>
+<td><b>Business Hour</b> : Monday to Sunday - 9.00 am - 8.00 pm </td>
+</tr>
+<tr>
+<td><b>Operation Hour</b> : Monday to Sunday - 8.00 am - 9.00 pm </td>
+</tr>
+</table>
+<br>
+<br>
+<a href="https://www.google.com/maps/place/Restoran+Shabu+Shabu+Ipoh/@3.7790824,100.8399594
+,9z/data=!4m9!1m2!2m1!1srestoran+shabu+shabu+greentown+perak!3m5!1s0x0:0x813c9391dea15622!8m2
+!3d4.5903826!4d101.0930096!15sCiRyZXN0b3JhbiBzaGFidSBzaGFidSBncmVlbnRvd24gcGVyYWtaJiIkcmVzdG9yYW
+4gc2hhYnUgc2hhYnUgZ3JlZW50b3duIHBlcmFrkgEUc3RlYW1ib2F0X3Jlc3RhdXJhbnSaASRDaGREU1VoTk1HOW5TMFZKUTB
+GblNVTXdhemhwVW5kQlJSQUI"><img src="image/location2.png" width="10%"></a>
+<b><p>Location</p></b>
+<b><p>14, Jalan Raja Dr. Nazrin Shah, 30250 Ipoh, Perak</p></b>
+<br>
+<img src="image/email2.png" width="18%"></a>
+<b><p>Email</p></b>
+<b><p>sugarpotbakery22@gmail.com</p></b>
+<br>
+<img src="image/phone2.png" width="13%">
+<b><p>Phone</p></b>
+<b><p>01172928993</p></b>
+<br>
+<a href="https://www.instagram.com/sugarpotbakery/"><img src="image/instagram2.png" width="10%"></a>
+<b><p>Social Media</p></b>
+<b><p>@sugarpotbakery</p></b>
+</th>
+
+<th align="center">
+<br>
+<div class="container">
+  <form action="action_page.php">
+<br>
+<br>
+    <label for="fname">First Name</label>
+<br>
+<br>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+<br>
+<br>
+    <label for="lname">Last Name</label>
+<br>
+<br>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+<br>  
+<br>
+    <label for="numberphone">Number Phone</label>
+<br>
+<br>
+    <input type="text" id="numberphone" name="numberphone" placeholder="Your number phone..">
+<br>
+<br>
+    <label for="anyinquiries">Any inquiries</label>
+<br>
+<br>
+    <textarea id="anyinquiries" name="anyinquiries" placeholder="Write something.." style="height:200px"></textarea>
+<br>
+<br>
+    <center><a href="thanks.html"><img src="image/button.png"></a></center>
+
+  </form>
+</div>
+</th>
+</tr>
+
+
+
+
+</table>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="http://www.wasap.my/601172928993"
+   		 class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
+
+<!-- CSS -->
+<style>
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+ </style>
+<br>
+<div id="sfcynqfd7sdrbule5pznfnapkazpfwrc56u"></div><script type="text/javascript" src="https://counter6.stat.ovh/private/counter.js?c=ynqfd7sdrbule5pznfnapkazpfwrc56u&down=async" async></script><noscript><a href="https://www.freecounterstat.com" title="web counter"><img src="https://counter6.stat.ovh/private/freecounterstat.php?c=ynqfd7sdrbule5pznfnapkazpfwrc56u" border="0" title="web counter" alt="web counter"></a></noscript>
+<br>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<br>
+<style>
+    footer {
+        position: relative;
+        height: 110px;
+        width: 100%;
+        background-color: #333333;
+    }
+
+    p.copyright {
+        position: absolute;
+        width: 100%;
+        color: yellow;
+        line-height: 40px;
+        font-size: 0.7em;
+        text-align: center;
+        bottom:0;
+    }
+</style>
+<footer>
+<br>
+<a href="https://www.instagram.com/sugarpotbakery/"><img src="image/instagram2.png" width="3%"></a>
+    <p class="copyright">© 2021 The Sugar Pot Bakery . All Rights Reserved</p>
+</footer>
+</body>
+</html>
